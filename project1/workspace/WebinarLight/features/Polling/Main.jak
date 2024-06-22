@@ -1,0 +1,11 @@
+public refines class Main {
+	public void print() {
+		Super().print();
+		System.out.println("- Polling System");
+		XMLFileOperations.addFeature("processes/PollingSystem/DiffPollingSystem.xml", 
+				Super().getBPMNPath()+"Webinar.bpmn"); 
+		
+//		XMLFileOperations.copyFile("processes/PassPresenter/PassPresenter.bpmn", 
+//				Super().getBPMNPath()+"PassPresenter.bpmn");
+	}
+}

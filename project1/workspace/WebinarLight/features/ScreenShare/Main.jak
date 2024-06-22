@@ -1,0 +1,11 @@
+public refines class Main {
+	public void print() {
+		Super().print();
+		System.out.println("- Screen Share");
+		XMLFileOperations.addFeature("processes/ScreenShare/DiffScreenShare.xml", 
+				Super().getBPMNPath()+"Webinar.bpmn"); 
+		
+//		XMLFileOperations.copyFile("processes/PassPresenter/PassPresenter.bpmn", 
+//				Super().getBPMNPath()+"PassPresenter.bpmn");
+	}
+}

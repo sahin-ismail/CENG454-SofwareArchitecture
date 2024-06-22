@@ -1,0 +1,11 @@
+public refines class Main {
+	public void print() {
+		Super().print();
+		System.out.println("- Chat Messaging");
+		XMLFileOperations.addFeature("processes/ChatMessaging/DiffChatMessaging.xml", 
+				Super().getBPMNPath()+"Webinar.bpmn");
+
+//		XMLFileOperations.copyFile("processes/ChatMessaging/ChatMessaging.bpmn", 
+//				Super().getBPMNPath()+"ChatMessaging.bpmn");
+	}
+}

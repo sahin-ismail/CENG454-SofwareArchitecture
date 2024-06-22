@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="WebinarPlatform"/>
+	<feature automatic="selected" name="Webinar"/>
+	<feature automatic="selected" name="Seminars"/>
+	<feature automatic="selected" manual="selected" name="Live"/>
+	<feature manual="selected" name="Background"/>
+	<feature name="PreRecorded"/>
+	<feature name="WhiteBoard"/>
+	<feature automatic="selected" name="Participants"/>
+	<feature automatic="selected" name="UserRoles"/>
+	<feature automatic="selected" name="ActiveSpeaker"/>
+	<feature automatic="selected" name="Listener"/>
+	<feature manual="selected" name="PassPresenter"/>
+	<feature manual="selected" name="ScreenShare"/>
+	<feature automatic="selected" name="UserManagement"/>
+	<feature automatic="selected" name="Registration"/>
+	<feature automatic="selected" name="LogIn"/>
+	<feature automatic="selected" name="VirtualRooms"/>
+	<feature manual="selected" name="WaitingRooms"/>
+	<feature name="BreakOutRooms"/>
+	<feature automatic="selected" name="Tools"/>
+	<feature automatic="selected" name="Q_A_"/>
+	<feature manual="selected" name="ChatMessaging"/>
+	<feature manual="selected" name="Polling"/>
+	<feature manual="selected" name="EngagementAnalysis"/>
+	<feature manual="selected" name="AIAnalysis"/>
+	<feature automatic="selected" name="Platform"/>
+	<feature automatic="selected" name="SocialMediaIntegration"/>
+	<feature automatic="selected" name="LiveStreaming"/>
+</configuration>
